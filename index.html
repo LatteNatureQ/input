@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        input {
+        display: block;
+    }
+    </style>
+</head>
+
+<body>
+    <form action="javascript:;">
+        <p>form表单</p>
+        search:<input @serch='test' type="search" placeholder="search">
+        date:<input type="date">
+        color:<input type="color" name="" id="">
+        datetime:<input type="datetime" name="" id="">
+        datetime-local:<input type="datetime-local" name="" id="">
+        email:<input type="email" name="" id="">
+        hidden:<input type="hidden" name="">
+        image: <input type="image" src="" alt="">
+        week:<input type="week" name="" id="">
+        url:<input type="url" name="" id="">
+        time:<input type="time" name="" id="">
+        text:<input type="text" name="" id="">
+        tel:<input type="tel" name="" id="">
+        submit:<input type="submit" value="">
+        reset:<input type="reset" value="">
+        range:<input type="range" name="" id="">
+        radio:<input type="radio" name="" id="">
+        password:<input type="password" name="" id="">
+        number:<input type="number" name="" id="">
+        month:<input type="month" name="" id="">
+        file:<input type="file" name="" id="">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </form>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <script>
+        function test(e) {
+            e.preventDefault();
+        }
+    </script>
+</body>
+
+</html>
